@@ -1,0 +1,116 @@
+#heading{
+  text-align:center;
+  border:2px solid black;
+  margin-bottom:3px;
+  background-color: white;
+  background:linear-gradient(rgb(96, 100, 96),rgb(37, 52, 41));
+  font-family: didot, serif;
+  color:rgb(173, 156, 60);
+  text-shadow: 8px 4px black;
+  -webkit-text-stroke: 1px;
+  
+  
+}
+
+body{
+  background: linear-gradient(rgb(212, 212, 220),rgb(133, 125, 125));
+}
+h1{
+  font-size: 80px;
+  
+}
+#all{
+  background:linear-gradient(rgb(96, 100, 96),rgb(37, 52, 41));
+  display:flex;
+
+
+}
+
+
+#deals{
+  background:linear-gradient(rgb(96, 100, 96),rgb(37, 52, 41));
+  background-color: white;
+  display:flex;
+  flex-flow:row wrap;
+  border:2px solid black;
+
+
+justify-content: center;
+
+}
+
+.sale-item{
+  margin-right:10px;
+margin-top:px;
+background:linear-gradient(rgb(142, 142, 144),rgb(91, 86, 57));
+
+background-color:rgb(238, 247, 255);
+
+ 
+  display:flex;
+  flex-flow:column;
+ 
+  border:2px solid black;
+  border-radius:20px;
+  padding:20px;
+}
+
+.sale-item > img{
+  border:1px solid rgb(213, 211, 211);
+  margin-top:5px;
+  order:-1;
+  align-self:center;
+}
+
+.sale-item > button{
+  padding:10px;
+  border-radius: 15px;
+  margin-top:auto;
+  background-color: green;
+  color:white;
+}
+
+.sale-item > button:hover{
+  background-color:rgb(111, 139, 111);
+  font-size:15px;
+}
+ul{
+  text-decoration-line: none;
+}
+
+.sale-item > h1{
+  font-size:20px;
+  text-align:center;
+  color:rgb(191, 190, 139);
+  text-shadow: 2px 2px black;
+  background:linear-gradient(to right,rgb(106, 32, 32),rgb(92, 81, 81))
+}
+
+#test{
+  background:linear-gradient(to left,rgb(37, 52, 41),rgb(96, 100, 96));
+  background-color: white;
+  border:2px solid black;
+  display:flex;
+  flex-direction: column;
+  flex-grow: auto;
+
+
+ 
+
+}
+
+#test >.boxes{
+  background:linear-gradient(rgb(142, 142, 144),rgb(91, 86, 57));
+  text-align: center;
+  margin-left:8px;
+  margin-right:8px;
+  margin-top:18px;
+  margin-bottom:18px;
+  padding:10px;
+  padding-bottom:20px;
+  font-size:30px;
+ 
+  border:2px solid black;
+
+
+}
